@@ -18,3 +18,6 @@ Add these lines:
 To your "overall_header.html" file (located in your theme's template directory).
 
 That's it, you're done. You can now put a link to "contact.php" in your forum navigation. I'd probably advice adding some sort of anti-spam code to this or only make it available to registered members.
+Right now, I actually made a small change with regard to my above advice. In the template "contact_body.html" I make this available only to logged in users. I only needed something like this quick & rough - and it works for that purpose!
+
+If somebody know of a better solution, please contribute your code and I'll add the changes.
