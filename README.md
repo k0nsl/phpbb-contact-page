@@ -16,3 +16,5 @@ Add these lines:
     <script type="text/javascript" src="/javascripts/contact.js"></script>
     
 To your "overall_header.html" file (located in your theme's template directory).
+
+That's it, you're done. You can now put a link to "contact.php" in your forum navigation. I'd probably advice adding some sort of anti-spam code to this or only make it available to registered members.

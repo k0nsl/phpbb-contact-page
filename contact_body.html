@@ -1,5 +1,6 @@
 <!-- INCLUDE overall_header.html -->
 
+<!-- IF S_USER_LOGGED_IN -->
 <h2>Contact Us</h2>
 
 <div class="panel">
@@ -35,6 +36,22 @@
 
    <span class="corners-bottom"><span></span></span></div>
 </div>
+<!-- ENDIF -->
+
+<!-- IF not S_USER_LOGGED_IN -->
+<h2>Contact Us</h2>
+<div class="panel">
+   <div class="inner"><span class="corners-top"><span></span></span>
+
+   <div class="content">
+
+   <p>Sorry, you must be logged in to use this. This is just a measure to prevent spam.</p>
+
+   </div>
+
+   <span class="corners-bottom"><span></span></span></div>
+</div>
+<!-- ENDIF -->
 
 <br />
 <!-- INCLUDE overall_footer.html -->
