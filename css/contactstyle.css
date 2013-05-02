@@ -1,0 +1,80 @@
+body {
+
+}
+ 
+h1 {
+  color: #24333c;
+  font-size: 48px;
+  font-weight: normal;
+  margin: 25px 0 15px;
+  text-align: center;
+}
+ 
+#wrap {
+
+}
+ 
+form {
+  padding: 0;
+  margin: 0 0 20px;
+}
+table {
+  margin: 0 auto;
+}
+tr, td, input, textarea {
+  margin: 0;
+  padding: 0;
+}
+td {
+  padding: 0 0 5px;
+}
+tr td:first-child {
+  padding-right: 10px;
+  padding-top: 11px;
+  text-align: right;
+  vertical-align: top;
+}
+.error[generated=true] {
+  color: #dc0000;
+  font-size: 16px;
+  padding: 5px 0 2px 5px;
+}
+tr.error td {
+  padding: 0;
+}
+input, textarea {
+  background: #FFF;
+  border: 3px solid #7a91a1;
+  font: inherit;
+  font-size: 16px;
+  line-height: 29px;
+  min-height: 30px;
+  padding: 5px 10px;
+  width: 300px;
+}
+input:focus, textarea:focus {
+  border-color: #b0c3d0;
+  outline: none;
+}
+textarea {
+  height: 240px;
+  resize: vertical;
+}
+input[type=submit] {
+  background: #24333d;
+  color: #FFF;
+  font: inherit;
+  padding: 7px 20px;
+  width: auto;
+}
+ 
+#response {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#response .success {
+  color: #08a300;
+}
+#response .failure {
+  color: #dc0000;
+}

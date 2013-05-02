@@ -1,0 +1,47 @@
+<!-- INCLUDE overall_header.html -->
+
+   <link rel="stylesheet" href="/css/contactstyle.css" type="text/css" />
+ 
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.form.js"></script>
+    <script type="text/javascript" src="/javascripts/contact.js"></script>
+
+<h2>Contact Us</h2>
+
+<div class="panel">
+   <div class="inner"><span class="corners-top"><span></span></span>
+
+   <div class="content">
+
+    <div id="wrap">
+      <form id="contactform" action="/kontakt.php" method="post">
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" name="message" rows="5" cols="20"></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Send!" id="send" /></td>
+          </tr>
+        </table>
+      </form>
+      <div id="response"></div>
+    </div>
+
+   </div>
+
+   <span class="corners-bottom"><span></span></span></div>
+</div>
+
+<!-- INCLUDE jumpbox.html -->
+<!-- INCLUDE overall_footer.html -->
